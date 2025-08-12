@@ -33,10 +33,9 @@ public class AppController {
 		return s.updateData(p);
 	}
 
-	/* 
+
 	@DeleteMapping("/delete/{id}")
 	public String delete(@PathVariable int id) {
 		return s.deleteData(id);
 	}
-	*/
 }
